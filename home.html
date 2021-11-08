@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="scripts/FileSaver.js"></script>
 </head>
 
 <body>
@@ -22,14 +23,10 @@
         <hr />
         <br>
         <div class="alinhamento">
-            <div class="container">
-                <p style="font-weight: bold;"></p>
-                <br/>
-                <div class="form-parts">
-                    <label>{"nome": "João","idade": 30}</label>
-                    <br>
-                    <button id="btnJson">Converter string para Json</button>
-                </div>
+            <div>
+                <textarea style="height: 100px; width: 500px">{"nome": "João","idade": 30}</textarea>
+                <br>
+                <button id="btnJson">Converter string para Json</button>
             </div>
         </div>
         <div class="alinhamento">

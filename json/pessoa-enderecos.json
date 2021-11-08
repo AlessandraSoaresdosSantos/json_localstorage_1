@@ -1,0 +1,10 @@
+{
+    "nome": "João",
+    "idade": 30,
+    "enderecos": [{
+            "residencial": "Rua Lírio do Vale, 400 - Parque Esperança- São Paulo - SP"
+        },
+        { "comercial": "Avenida Morumbi, 400 - Sobreloja - Morumbi - São Paulo - SP" }
+    ],
+    "telefone": "(11)98909-0976"
+}

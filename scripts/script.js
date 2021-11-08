@@ -11,17 +11,13 @@ function uploadJson(e) {
 
         var formato_json = JSON.parse(event.target.result);
         var valor_json = JSON.stringify(formato_json, null, 2);
-        document.getElementById('resultado').value = valor_json;
 
+        localStorage.clear();
         localStorage.setItem('pessoas', valor_json);
 
-        //criar o arquivo valor_json e realizar donwload
-        var file_download = new Blob([valor_json], { type: "json;charset=utf-8" });
-        saveAs(file_download, "valor_json.json");
+        document.getElementById('resultado').value = valor_json;
+
     }
 
     fr.readAsText(arquivo_json);
-
-
-
 }
